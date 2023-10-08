@@ -1,0 +1,143 @@
+.navbar{
+    background: linear-gradient(110deg, orange 60%, #56e016 60%);
+  
+ }
+ li{
+    list-style: none;
+    margin: 10px;
+ }
+ .navbar-brand h1{
+    color: white;
+    
+ }
+ .navbar{
+   padding: 10px;
+   
+ }
+ ul{
+    margin-left: auto;
+ }
+
+ #heading{
+   
+   margin-top: 10px;
+   color: white;
+   text-shadow: 2px 2px #ff0000;
+   background-color: black;
+   border-radius: 50px 0px 50px 0px;
+   padding: 10px;
+ }
+ #heading h1{
+  
+   margin-left: 10px;
+ }
+ /* fitness */
+ .contains button{
+
+  border-radius: 0px 50px 0px 50px; 
+  padding-right: 20px;
+  padding-left: 20px;
+
+ }
+ .card{
+   margin-top: 10px;
+ }
+ 
+.diet{
+  margin-top: 10px;
+}
+.diet .row{
+  padding: 10px;
+  border: 3px solid greenyellow;
+outline-width: 3px;
+outline-style: solid;
+outline-color: red;
+  border-radius:0px 50px 0px 50px ;
+  margin-bottom: 10px;
+}
+.diet img{
+  
+width: 100%;
+border-radius: 10px;
+}
+
+/* Diabetes */
+.Diabetes{
+  margin-top: 10px;
+  background-color: gray;
+  height:530px ;
+  width: 100%;
+ }
+
+
+
+.my-img{
+  animation: rotateImg 7s linear infinite;
+  
+  border-radius: 50%;
+  margin: 0px;
+  margin-top: 30px;
+}
+#r2{
+  height: 500px;
+  width: 500px;
+  
+}
+#r1{
+  height: 300px;
+  width: 300px;
+}
+#r3{
+  height: 300px;
+  width: 300px;
+}
+@keyframes rotateImg{
+  from {
+   transform: rotate(0deg);
+  }
+ to {
+  transform: rotate(360deg);
+ }
+}
+
+.absolute{
+position: absolute;
+top: 180px;
+left: 0px;
+width: 100%;
+height: 350px;
+border: 3px solid yellowgreen;
+outline: 3px solid red;
+background-color: black;
+border-radius: 10px 10px 50px 50px;
+background-image: url(Diabetesback.avif);
+}
+.contain{
+  text-align: center;
+  margin-top: 65px;
+}
+
+
+@media only screen and (max-width: 1200px) {
+  .circle {
+    display: none;
+  }
+  .absolute{
+    height: 300px;
+    top: 110px;
+  }
+  .Diabetes{
+    
+   height: 450px;
+   
+   }
+   
+}
+
+/* Footer */
+.footer{
+  color: white;
+  background-color:rgb(27, 21, 21);
+  width: 100%;
+  height: 300px;
+}
